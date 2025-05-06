@@ -1,17 +1,16 @@
-Job portal Server
+# Job Portal Server
 
-This project is a backend application built with NestJS and TypeScript, serving as the server-side component for a job posting platform. It provides RESTful API endpoints for managing job listings, applications, and related data.
+This project is a backend application built with **NestJS** and **TypeScript**, serving as the server-side component for a job posting platform. It provides RESTful API endpoints for managing job listings, applications, and related data.
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 
-NestJS – A progressive Node.js framework for building efficient and scalable server-side applications
+* **NestJS** – A progressive Node.js framework for building efficient and scalable server-side applications
+* **TypeScript** – Strong typing for modern JavaScript
+* **Node.js** – JavaScript runtime environment
 
-TypeScript – Strong typing for modern JavaScript
+## 📁 Project Structure
 
-Node.js – JavaScript runtime environment
-
-📁 Project Structure
-
+```
 job-portal-server/
 ├── src/                # Source code
 │   ├── controllers/    # Route handlers
@@ -21,42 +20,47 @@ job-portal-server/
 ├── package.json        # Project metadata and dependencies
 ├── tsconfig.json       # TypeScript configuration
 └── README.md           # Project documentation
+```
 
-🚀 Getting Started
+## 🚀 Getting Started
 
-Prerequisites
+### Prerequisites
 
-Node.js (v14 or higher)
+* Node.js (v14 or higher)
+* npm or yarn
 
-npm or yarn
+### Installation
 
-Installation
+1. **Clone the repository:**
 
-Clone the repository:
+   ```bash
+   git clone https://github.com/YuriiSoroka26/job-portal-server.git
+   ```
 
-git clone https://github.com/YuriiSoroka26/job-portal-server.git
+2. **Navigate into the project directory:**
 
-Navigate into the project directory:
+   ```bash
+   cd job-portal-server
+   ```
 
-cd job-portal-server
+3. **Install dependencies:**
 
-Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-npm install
-# or
-yarn install
+4. **Start the development server:**
 
-Start the development server:
+   ```bash
+   npm run start:dev
+   ```
 
-npm run start:dev
+   The server will be running at `http://localhost:3001` or your configured port.
 
-The server will be running at http://localhost:3001 or your configured port.
+## 📌 Notes
 
-📌 Notes
-
-This project is the backend API for a job posting system and is designed to work alongside the Job Portal Client.
-
-Features such as database integration, authentication, and admin interfaces can be added.
-
-Contributions and issue reports are welcome!
-
+* This project is the backend API for a job posting system and is designed to work alongside the Job Portal Client.
+* Features such as database integration, authentication, and admin interfaces can be added.
+* Contributions and issue reports are welcome!
